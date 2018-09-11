@@ -48,7 +48,6 @@ def buy_fish(name)
 end
 
 def walk_dogs
-  binding.pry
   dogs = @pets[:dogs]
   dogs.collect{|dog| dog.mood = "happy"}
 end
