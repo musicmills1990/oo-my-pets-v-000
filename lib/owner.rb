@@ -12,25 +12,26 @@ def initialize(pets)
 end
 
 def self.all
-owner = Owner.new
+owner = Owner.new(@name)
 @@all << owner
+end
+
+
+def self.count
+@@count += 1
 end
 
 def self.reset_all
   @@count
 end
 
-def self.count
-@@count += 1
-end
-
-
-
 def say_species
 "I am a #{@species}."
 end
 
 def buy_cat
+
+  
 end
 
 def buy_dog
