@@ -72,7 +72,7 @@ def sell_pets
   cats = @pets[:cats]
   cats.collect{|cat| cat.mood = "nervous"}
   binding.pry
-  @pets.values = []
+  @pets.values.clear
 end
 
 def list_pets
