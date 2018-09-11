@@ -75,6 +75,9 @@ def sell_pets
 end
 
 def list_pets
+  fish_count = @pets[:fishes].count
+
+
  "I have 2 fish, 3 dog(s), and 1 cat(s)." #this is hardcoded cheating. fix this later
 end
 
