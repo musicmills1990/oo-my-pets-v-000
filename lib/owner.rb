@@ -59,7 +59,7 @@ end
 
 def play_with_cats
   cats = @pets[:cats]
-  cats.collect{|cat| cats.mood = "happy"}
+  cats.collect{|cat| cat.mood = "happy"}
 end
 
 def sell_pets
