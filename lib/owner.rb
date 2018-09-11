@@ -12,9 +12,7 @@ def initialize(pets)
 end
 
 def self.all
-binding.pry
 @@all << self.new(@name)
-
 end
 
 
@@ -31,8 +29,6 @@ def say_species
 end
 
 def buy_cat
-
-
 end
 
 def buy_dog
