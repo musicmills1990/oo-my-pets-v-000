@@ -49,7 +49,8 @@ end
 
 def walk_dogs
   binding.pry
-  @pets[:dogs]
+  dogs = @pets[:dogs]
+  dogs.collect{|dog| dog.mood = "happy"}
 end
 
 def feed_fish
