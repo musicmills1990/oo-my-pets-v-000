@@ -32,22 +32,23 @@ end
 def buy_cat(name)
   cat = Cat.new(name)
   @pets[:cats] << cat
-  cat #@name is still nil, maybe something needs to be changed in cat class
+  cat
 end
 
 def buy_dog(name)
   dog = Dog.new(name)
   @pets[:dogs] << dog
-  dog #@name is still nil, maybe something needs to be changed in dog class
+  dog
 end
 
 def buy_fish(name)
   fish = Fish.new(name)
   @pets[:fishes] << fish
-  fish #@name is still nil, maybe something needs to be changed in fish class
+  fish
 end
 
-def walk_dogs
+def walk_dogs(mood)
+  
 end
 
 def feed_fish
