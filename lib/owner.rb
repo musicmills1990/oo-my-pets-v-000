@@ -48,6 +48,7 @@ def buy_fish(name)
 end
 
 def walk_dogs
+  binding.pry
   @pets[:dogs]
 end
 
