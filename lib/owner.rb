@@ -29,19 +29,19 @@ def say_species
 "I am a #{@species}."
 end
 
-def buy_cat(cat)
+def buy_cat(name)
   cat = Cat.new(name)
   @pets[:cats] << cat
   cat #@name is still nil, maybe something needs to be changed in cat class
 end
 
-def buy_dog(dog)
+def buy_dog(name)
   dog = Dog.new(name)
   @pets[:dogs] << dog
   dog #@name is still nil, maybe something needs to be changed in dog class
 end
 
-def buy_fish(fish)
+def buy_fish(name)
   fish = Fish.new(name)
   @pets[:fishes] << fish
   fish #@name is still nil, maybe something needs to be changed in fish class
