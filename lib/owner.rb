@@ -2,7 +2,6 @@ require 'pry'
 
 class Owner
 @@all = []
-@@count = 0
 attr_accessor :pets, :name
 attr_reader :species
 
@@ -10,6 +9,7 @@ def initialize(pets)
   @pets = {fishes: [], cats: [], dogs: []}
   @species = "human"
   @@all << self
+  @@count = 0
 end
 
 def self.all
