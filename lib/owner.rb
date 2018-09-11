@@ -48,8 +48,7 @@ def buy_fish(name)
 end
 
 def walk_dogs
-
-pets = "happy"
+  @pets[:dogs]
 end
 
 def feed_fish
