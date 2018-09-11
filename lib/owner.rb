@@ -21,6 +21,8 @@ def self.count
 end
 
 def self.reset_all
+  owner = self.count
+  owner.clear
 end
 
 def say_species
