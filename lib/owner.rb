@@ -19,7 +19,10 @@ end
 def self.count
 if Owner.new = self
   @@count += 1
+else
+  @@count
 end
+
 end
 
 def self.reset_all
