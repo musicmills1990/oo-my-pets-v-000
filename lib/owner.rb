@@ -71,7 +71,7 @@ def sell_pets
 
   cats = @pets[:cats]
   cats.collect{|cat| cat.mood = "nervous"}
-  @pets.values.clear
+  @pets.clear
 end
 
 def list_pets
