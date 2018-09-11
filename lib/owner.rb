@@ -63,8 +63,14 @@ def play_with_cats
 end
 
 def sell_pets
-  all_pets = @pets
-  all_pets.collect{|pet| pet.mood = "nervous"}
+  dogs = @pets[:dogs]
+  dogs.collect{|dog| dog.mood = "nervous"}
+
+  fish = @pets[:fishes]
+  fish.collect{|fish| fish.mood = "nervous"}
+
+  cats = @pets[:cats]
+  cats.collect{|cat| cat.mood = "nervous"}
   @pets.values = []
 end
 
