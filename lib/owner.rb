@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
 @@all = []
-@@count = 1
+@@count = 0
 attr_accessor :pets, :name
 attr_reader :species
 
@@ -17,11 +17,12 @@ owner = Owner.new
 end
 
 def self.count
-  @@count
+when Owner.new = self
+  @@count += 1
 end
 
 def self.reset_all
-  @@count -= 1
+  @@count
 end
 
 def say_species
