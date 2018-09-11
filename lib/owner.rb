@@ -21,8 +21,7 @@ def self.count
 end
 
 def self.reset_all
-  owner = self.count
-  owner = 0
+  self.count = 0
   binding.pry
 end
 
