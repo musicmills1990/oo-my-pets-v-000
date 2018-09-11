@@ -63,9 +63,9 @@ def play_with_cats
 end
 
 def sell_pets
-  binding.pry
-  all_pets = @pets.values
+  all_pets = @pets
   all_pets.collect{|pet| pet.mood = "nervous"}
+
 end
 
 def list_pets
