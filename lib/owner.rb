@@ -41,7 +41,6 @@ end
 def buy_fish
   fish = Fish.new(@name)
   @pets[:fishes] << fish
-  
 end
 
 def walk_dogs
