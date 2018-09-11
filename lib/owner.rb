@@ -16,13 +16,15 @@ owner = Owner.new
 @@all << owner
 end
 
+def self.reset_all
+  @@count
+end
+
 def self.count
 @@count += 1
 end
 
-def self.reset_all
-  @@count
-end
+
 
 def say_species
 "I am a #{@species}."
