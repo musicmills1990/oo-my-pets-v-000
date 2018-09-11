@@ -39,6 +39,7 @@ def buy_dog(name)
   dog = Dog.new(name)
   @pets[:dogs] << dog
   dog
+  binding.pry
 end
 
 def buy_fish(name)
@@ -48,8 +49,7 @@ def buy_fish(name)
 end
 
 def walk_dogs
-  binding.pry
-  Dog.mood = "happy"
+
 end
 
 def feed_fish
