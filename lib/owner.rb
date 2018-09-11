@@ -29,21 +29,22 @@ def say_species
 end
 
 def buy_cat(cat)
+  binding.pry
   cat = Cat.new(@name)
   @pets[:cats] << cat
-  cat
+
 end
 
 def buy_dog(dog)
   dog = Dog.new(@name)
   @pets[:dogs] << dog
-  dog
+
 end
 
 def buy_fish(fish)
   fish = Fish.new(@name)
   @pets[:fishes] << fish
-  fish
+
 end
 
 def walk_dogs
