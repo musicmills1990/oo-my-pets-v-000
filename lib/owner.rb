@@ -21,8 +21,8 @@ def self.count
 end
 
 def self.reset_all
-  self.count = 0
   binding.pry
+  self.count = 0
 end
 
 def say_species
