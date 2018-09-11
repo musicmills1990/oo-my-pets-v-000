@@ -9,10 +9,11 @@ attr_reader :species
 def initialize(pets)
   @pets = {fishes: [], cats: [], dogs: []}
   @species = "human"
+  @@all << self
 end
 
 def self.all
-@@all << self.new(@name)
+
 @@all
 end
 
