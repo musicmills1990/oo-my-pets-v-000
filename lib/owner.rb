@@ -49,7 +49,7 @@ end
 
 def walk_dogs
 
-pets.dogs.mood = "happy"
+pets = "happy"
 end
 
 def feed_fish
