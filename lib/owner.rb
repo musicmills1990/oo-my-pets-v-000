@@ -63,6 +63,7 @@ def play_with_cats
 end
 
 def sell_pets
+  all_pets = @pets.values
 end
 
 def list_pets
