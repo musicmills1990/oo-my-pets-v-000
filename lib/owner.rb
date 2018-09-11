@@ -17,8 +17,9 @@ owner = Owner.new
 end
 
 def self.count
-when Owner.new = self
+if Owner.new = self
   @@count += 1
+end
 end
 
 def self.reset_all
