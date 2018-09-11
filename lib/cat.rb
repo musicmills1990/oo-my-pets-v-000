@@ -1,3 +1,4 @@
+require 'pry'
 class Cat
 
 attr_accessor :mood
@@ -8,6 +9,7 @@ def initialize(name)
   @mood = "nervous"
 end
 
+binding.pry
 
 
 end
