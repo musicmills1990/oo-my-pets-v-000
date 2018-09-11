@@ -23,6 +23,7 @@ end
 def self.reset_all
   owner = self.count
   owner = 0
+  binding.pry
 end
 
 def say_species
