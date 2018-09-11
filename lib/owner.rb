@@ -13,7 +13,6 @@ def initialize(pets)
 end
 
 def self.all
-
 @@all
 end
 
