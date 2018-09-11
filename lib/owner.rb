@@ -12,6 +12,7 @@ def initialize(pets)
 end
 
 def self.all
+binding.pry
 @@all << self.new(@name)
 
 end
