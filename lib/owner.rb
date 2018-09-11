@@ -47,8 +47,7 @@ def buy_fish(fish)
 end
 
 def walk_dogs
-  binding.pry
-Dog.mood = "happy"
+  
 end
 
 def feed_fish
@@ -58,6 +57,7 @@ def sell_pets
 end
 
 def list_pets
+  
 end
 
 end
