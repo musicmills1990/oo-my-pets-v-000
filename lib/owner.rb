@@ -71,6 +71,7 @@ def sell_pets
 
   cats = @pets[:cats]
   cats.collect{|cat| cat.mood = "nervous"}
+  binding.pry
   @pets.values = []
 end
 
