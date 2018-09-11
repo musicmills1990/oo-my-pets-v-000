@@ -47,6 +47,7 @@ def buy_fish(fish)
 end
 
 def walk_dogs
+  binding.pry
   dog_mood = Dog.new(@mood)
   dog_mood = "happy"
 end
