@@ -12,8 +12,8 @@ def initialize(pets)
 end
 
 def self.all
-owner = Owner.new(@name)
-@@all << owner
+@@all = Owner.new(@name)
+
 end
 
 
@@ -31,7 +31,7 @@ end
 
 def buy_cat
 
-  
+
 end
 
 def buy_dog
