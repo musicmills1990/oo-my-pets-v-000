@@ -12,7 +12,7 @@ def initialize(pets)
 end
 
 def self.all
-  @@all << self.new
+  @@all << Owner.new
 end
 
 def self.count
