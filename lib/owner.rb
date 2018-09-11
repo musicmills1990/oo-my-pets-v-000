@@ -81,7 +81,7 @@ def list_pets
   cat_count = @pets[:cats].count
 
 
- "I have 2 fish, 3 dog(s), and 1 cat(s)." #this is hardcoded cheating. fix this later
+ "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)." #this is hardcoded cheating. fix this later
 end
 
 end
