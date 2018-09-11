@@ -20,7 +20,7 @@ def self.count
 end
 
 def self.reset_all
-  @@count = 0
+  @@count.dup = 0
 end
 
 def say_species
