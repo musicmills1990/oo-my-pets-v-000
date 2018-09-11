@@ -53,7 +53,7 @@ end
 def feed_fish
 end
 
-def play_with_days
+def play_with_cats
 end
 
 def sell_pets
