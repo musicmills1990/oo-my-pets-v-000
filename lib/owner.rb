@@ -18,8 +18,7 @@ end
 
 
 def self.count
-  binding.pry
-@@all.count
+self.all.count
 end
 
 def self.reset_all
