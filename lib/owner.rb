@@ -22,7 +22,7 @@ end
 
 def self.reset_all
   self.count = 0
-  pry
+  binding.pry
 end
 
 def say_species
