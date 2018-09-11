@@ -64,7 +64,7 @@ end
 
 def sell_pets
   binding.pry
-  all_pets = @pets.values
+  all_pets = @pets.keys
 end
 
 def list_pets
