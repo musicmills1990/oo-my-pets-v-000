@@ -12,7 +12,7 @@ def initialize(pets)
 end
 
 def self.all
-@@all << self.new(@name)
+@@all << Owner.new(@name)
 end
 
 
@@ -31,23 +31,22 @@ end
 def buy_cat(cat)
   cat = Cat.new(@name)
   @pets[:cats] << cat
-  cat
+  cat #@name is still nil, maybe something needs to be changed in cat class
 end
 
 def buy_dog(dog)
   dog = Dog.new(@name)
   @pets[:dogs] << dog
-  dog
+  dog #@name is still nil, maybe something needs to be changed in dog class
 end
 
 def buy_fish(fish)
   fish = Fish.new(@name)
   @pets[:fishes] << fish
-  fish
+  fish #@name is still nil, maybe something needs to be changed in fish class
 end
 
 def walk_dogs
-
 end
 
 def feed_fish
@@ -57,7 +56,6 @@ def sell_pets
 end
 
 def list_pets
-
 end
 
 end
