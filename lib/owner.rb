@@ -53,9 +53,13 @@ def walk_dogs
 end
 
 def feed_fish
+  fish = @pets[:fishes]
+  fish.collect{|fish| fish.mood = "happy"}
 end
 
 def play_with_cats
+  cats = @pets[:cats]
+  cats.collect{|cat| cats.mood = "happy"}
 end
 
 def sell_pets
