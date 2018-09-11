@@ -18,7 +18,7 @@ end
 
 
 def self.count
-@@count += 1
+@@all.count
 end
 
 def self.reset_all
