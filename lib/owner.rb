@@ -17,12 +17,7 @@ owner = Owner.new
 end
 
 def self.count
-if Owner.new = self
-  @@count += 1
-else
-  @@count
-end
-
+@@count += 1
 end
 
 def self.reset_all
