@@ -9,7 +9,6 @@ def initialize(pets)
   @pets = {fishes: [], cats: [], dogs: []}
   @species = "human"
   @@all << self
-  @@count = 0
 end
 
 def self.all
