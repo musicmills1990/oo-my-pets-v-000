@@ -47,7 +47,7 @@ def buy_fish(fish)
 end
 
 def walk_dogs
-  
+
 end
 
 def feed_fish
@@ -57,7 +57,7 @@ def sell_pets
 end
 
 def list_pets
-  
+
 end
 
 end
