@@ -47,9 +47,8 @@ def buy_fish(name)
   fish
 end
 
-def walk_dogs(mood)
-  dog = Dog.new(mood)
-  @mood = "happy"
+def walk_dogs
+  self.buy_dog(name).mood = "happy"
 end
 
 def feed_fish
