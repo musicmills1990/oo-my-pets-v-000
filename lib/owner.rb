@@ -22,7 +22,7 @@ end
 
 def self.reset_all
   owner = self.count
-  owner.clear
+  owner = 0
 end
 
 def say_species
