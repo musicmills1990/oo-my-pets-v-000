@@ -17,7 +17,6 @@ end
 
 
 def self.count
-  binding.pry
 @@all.count
 end
 
