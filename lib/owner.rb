@@ -12,6 +12,7 @@ def initialize(pets)
 end
 
 def self.all
+@@all << self.new(@name)
 @@all
 end
 
