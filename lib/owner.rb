@@ -21,7 +21,6 @@ self.all.count
 end
 
 def self.reset_all
-self.all.count.clear
 end
 
 def say_species
