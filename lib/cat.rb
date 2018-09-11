@@ -9,7 +9,9 @@ def initialize(name)
   @mood = "nervous"
 end
 
-binding.pry
+def name=(name)
+  self.new(name)
+end
 
 
 end
