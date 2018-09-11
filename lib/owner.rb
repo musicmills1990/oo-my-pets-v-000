@@ -29,7 +29,6 @@ def say_species
 end
 
 def buy_cat(cat)
-  binding.pry
   cat = Cat.new(@name)
   @pets[:cats] << 1
 end
