@@ -31,19 +31,19 @@ end
 def buy_cat(cat)
   cat = Cat.new(@name)
   @pets[:cats] << cat
-  return cat.name
+  cat
 end
 
 def buy_dog(dog)
   dog = Dog.new(@name)
   @pets[:dogs] << dog
-  dog.name
+  dog
 end
 
 def buy_fish(fish)
   fish = Fish.new(@name)
   @pets[:fishes] << fish
-  fish.name
+  fish
 end
 
 def walk_dogs
