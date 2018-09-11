@@ -29,6 +29,7 @@ def say_species
 end
 
 def buy_cat
+  @pets[cats] => 1
 end
 
 def buy_dog
