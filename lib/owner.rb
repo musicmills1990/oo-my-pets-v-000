@@ -28,7 +28,8 @@ def say_species
 "I am a #{@species}."
 end
 
-def buy_cat(somethign)
+def buy_cat(cat)
+  cat = Cat.new(@name)
   @pets[:cats] = 1
 end
 
