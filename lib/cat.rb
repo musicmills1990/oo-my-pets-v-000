@@ -12,6 +12,6 @@ end
 def name=(name)
   self.new(name)
 end
-
+binding.pry
 
 end
