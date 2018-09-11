@@ -65,7 +65,7 @@ end
 def sell_pets
   all_pets = @pets
   all_pets.collect{|pet| pet.mood = "nervous"}
-  all_pets = @pets.values = []
+  @pets.values = []
 end
 
 def list_pets
