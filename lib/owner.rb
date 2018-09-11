@@ -75,6 +75,7 @@ def sell_pets
 end
 
 def list_pets
+  binding.pry
   fish_count = @pets[:fishes].count
 
 
