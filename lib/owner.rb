@@ -17,7 +17,6 @@ owner = Owner.new
 end
 
 def self.count
-  binding.pry
   @@count += 1
 end
 
