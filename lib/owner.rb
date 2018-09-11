@@ -16,12 +16,14 @@ def self.all
 end
 
 
+def self.reset_all
+  @@all.clear
+end
+
 def self.count
 @@all.count
 end
 
-def self.reset_all
-end
 
 def say_species
 "I am a #{@species}."
